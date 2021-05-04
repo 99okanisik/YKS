@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+
+
+
+
+                <HorizontalScrollView
+                    android:id="@+id/horizontalScrollView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="152dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                tools:ignore="MissingConstraints">
+
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cardviewA"
+                                    android:layout_width="310dp"
+                                    android:layout_height="150dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_margin="15dp"
+                                    app:cardCornerRadius="12dp"
+                                    app:cardElevation="10dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="#FB9100"
+                                        android:gravity="center_horizontal">
+
+
+
+                                        <TextView
+                                            android:id="@+id/sorular1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:gravity="center"
+                                            android:padding="2dp"
+                                            android:text="26 HAZİRAN 2021 TYT"
+                                            android:textColor="@color/white"
+                                            android:textSize="22sp" />
+
+
+
+
+
+
+                                    </LinearLayout>
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cardviewB"
+                                    android:layout_width="310dp"
+                                    android:layout_height="150dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_margin="15dp"
+                                    app:cardCornerRadius="12dp"
+                                    app:cardElevation="10dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="#FB9100"
+                                        android:gravity="center_horizontal">
+
+                                        <TextView
+                                            android:id="@+id/sorular2"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:gravity="center"
+                                            android:padding="2dp"
+                                            android:text="27 HAZİRAN 2021 AYT"
+                                            android:textColor="@color/white"
+                                            android:textSize="22sp" />
+
+
+                                    </LinearLayout>
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cardviewC"
+                                    android:layout_width="310dp"
+                                    android:layout_height="150dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_margin="15dp"
+                                    app:cardCornerRadius="12dp"
+                                    app:cardElevation="10dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="#FB9100"
+                                        android:gravity="center_horizontal">
+
+                                        <TextView
+                                            android:id="@+id/sorular3"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:gravity="center"
+                                            android:padding="2dp"
+                                            android:text="27 HAZİRAN 2021 YDT"
+                                            android:textColor="@color/white"
+                                            android:textSize="22sp" />
+
+
+                                    </LinearLayout>
+
+                                </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+                            </LinearLayout>
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+
+                <HorizontalScrollView
+                    android:id="@+id/horizontalScrollView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="105dp"
+                    android:layout_marginTop="15dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                tools:ignore="MissingConstraints">
+
+
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cardviewD"
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_margin="15dp"
+                                    app:cardCornerRadius="8dp"
+                                    app:cardElevation="0dp">
+
+
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="center_vertical"
+                                        android:orientation="vertical">
+
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="50dp"
+                                            android:background="@drawable/duvarresmi"/>
+
+
+
+                                        <TextView
+                                            android:id="@+id/sorular4"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_gravity="bottom"
+                                            android:gravity="center_horizontal"
+                                            android:padding="2dp"
+                                            android:text="Sorular"
+                                            android:textColor="@color/black"
+                                            android:textSize="20sp"
+                                            />
+
+
+
+
+                                    </LinearLayout>
+
+
+
+                                </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cardviewE"
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_margin="15dp"
+                                    app:cardCornerRadius="8dp"
+                                    app:cardElevation="0dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@drawable/resim"
+                                        android:gravity="center_horizontal">
+
+
+
+
+                                    </LinearLayout>
+
+                                </androidx.cardview.widget.CardView>
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cardviewF"
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_margin="15dp"
+                                    app:cardCornerRadius="8dp"
+                                    app:cardElevation="0dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@drawable/tyt"
+                                        android:gravity="center_horizontal">
+
+
+
+
+                                    </LinearLayout>
+
+                                </androidx.cardview.widget.CardView>
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cardviewG"
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_margin="15dp"
+                                    app:cardCornerRadius="8dp"
+                                    app:cardElevation="0dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@drawable/duvarresmi"
+                                        android:gravity="center_horizontal">
+
+
+
+
+                                    </LinearLayout>
+
+                                </androidx.cardview.widget.CardView>
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cardviewH"
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_margin="15dp"
+                                    app:cardCornerRadius="8dp"
+                                    app:cardElevation="0dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@drawable/duvarresmi"
+                                        android:gravity="center_horizontal">
+
+
+
+
+                                    </LinearLayout>
+
+                                </androidx.cardview.widget.CardView>
+
+
+
+
+
+                            </LinearLayout>
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="210dp"
+                    android:layout_marginTop="15dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                tools:ignore="MissingConstraints">
+
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cardviewK"
+                                    android:layout_width="200dp"
+                                    android:layout_height="210dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_margin="15dp"
+                                    app:cardCornerRadius="8dp"
+                                    app:cardElevation="0dp">
+
+
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="center_vertical"
+                                        android:orientation="vertical">
+
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="150dp"
+                                            android:background="@drawable/duvarresmi"/>
+
+
+
+                                        <TextView
+                                            android:id="@+id/sorularK"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_gravity="bottom"
+                                            android:gravity="left"
+                                            android:padding="2dp"
+                                            android:text="Fizik"
+                                            android:textColor="@color/teal_200"
+                                            android:textSize="20sp"
+                                            />
+
+
+
+
+                                    </LinearLayout>
+
+
+
+                                </androidx.cardview.widget.CardView>
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cardviewK1"
+                                    android:layout_width="200dp"
+                                    android:layout_height="210dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_margin="15dp"
+                                    app:cardCornerRadius="8dp"
+                                    app:cardElevation="0dp">
+
+
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="center_vertical"
+                                        android:orientation="vertical">
+
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="150dp"
+                                            android:background="@drawable/duvarresmi"/>
+
+
+
+                                        <TextView
+                                            android:id="@+id/sorularK1"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_gravity="bottom"
+                                            android:gravity="left"
+                                            android:padding="2dp"
+                                            android:text="Kimya"
+                                            android:textColor="@color/teal_200"
+                                            android:textSize="20sp"
+                                            />
+
+
+
+
+                                    </LinearLayout>
+
+
+
+                                </androidx.cardview.widget.CardView>
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cardviewK2"
+                                    android:layout_width="200dp"
+                                    android:layout_height="210dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_margin="15dp"
+                                    app:cardCornerRadius="8dp"
+                                    app:cardElevation="0dp">
+
+
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="center_vertical"
+                                        android:orientation="vertical">
+
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="150dp"
+                                            android:background="@drawable/duvarresmi"/>
+
+
+
+                                        <TextView
+                                            android:id="@+id/sorularK2"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="30dp"
+                                            android:layout_gravity="bottom"
+                                            android:gravity="left"
+                                            android:padding="2dp"
+                                            android:text="Biyoloji"
+                                            android:textColor="@color/teal_200"
+                                            android:textSize="20sp"
+                                            />
+
+
+
+
+                                    </LinearLayout>
+
+
+
+                                </androidx.cardview.widget.CardView>
+
+
+
+
+                            </LinearLayout>
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+
+
+
+
+
+
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
